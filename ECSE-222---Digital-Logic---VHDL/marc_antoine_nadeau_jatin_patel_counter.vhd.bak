@@ -1,0 +1,21 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+entity jatin_patel_counter is
+Port (enable : in std_logic;
+		reset : in std_logic;
+		clk : in std_logic;
+		count : out std_logic_vector(2 downto 0));
+end jatin_patel_counter;
+
+Architecture behavioral jatin_patel_counter is
+begin
+	PROCESS (reset, clk)
+	BEGIN
+		if reset = '0' THEN
+			count <= '0';
+		elsif clk = '1' and clk'EVENT THEN
+			count <= count + '1';
+		END IF;
+	END PROCESS;
+END behavioral;

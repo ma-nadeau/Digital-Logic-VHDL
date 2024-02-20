@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pin_planner>
+	<pin_info>
+		<pin name="A[0]" source="Pin Planner" >
+		</pin>
+		<pin name="A[1]" source="Pin Planner" >
+		</pin>
+		<pin name="A[2]" source="Pin Planner" >
+		</pin>
+		<pin name="A[3]" source="Pin Planner" >
+		</pin>
+		<pin name="B[0]" source="Pin Planner" >
+		</pin>
+		<pin name="B[1]" source="Pin Planner" >
+		</pin>
+		<pin name="B[2]" source="Pin Planner" >
+		</pin>
+		<pin name="B[3]" source="Pin Planner" >
+		</pin>
+		<pin name="AeqBplusOne" source="Pin Planner" >
+		</pin>
+		<pin name="AgtBplusOne" source="Pin Planner" >
+		</pin>
+		<pin name="AgteBplusOne" source="Pin Planner" >
+		</pin>
+		<pin name="AltBplusOne" source="Pin Planner" >
+		</pin>
+		<pin name="AlteBplusOne" source="Pin Planner" >
+		</pin>
+		<pin name="overflow" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_A[0]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_A[1]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_A[2]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_A[3]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_A[4]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_A[5]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_A[6]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_B[0]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_B[1]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_B[2]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_B[3]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_B[4]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_B[5]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_B[6]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_AplusB[0]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_AplusB[1]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_AplusB[2]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_AplusB[3]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_AplusB[4]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_AplusB[5]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_AplusB[6]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_AplusB[7]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_AplusB[8]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_AplusB[9]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_AplusB[10]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_AplusB[11]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_AplusB[12]" source="Pin Planner" >
+		</pin>
+		<pin name="decoded_AplusB[13]" source="Pin Planner" >
+		</pin>
+	</pin_info>
+	<buses>
+	</buses>
+	<group_file_association>
+	</group_file_association>
+	<pin_planner_file_specifies>
+	</pin_planner_file_specifies>
+</pin_planner>
