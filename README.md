@@ -1,4 +1,4 @@
-# ECSE 222: Digital Logic
+Digital Logic
 
 <details>
   <summary>Digital Logic Fundamentals</summary>
