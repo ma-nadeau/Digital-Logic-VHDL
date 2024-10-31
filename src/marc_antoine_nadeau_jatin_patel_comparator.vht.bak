@@ -1,0 +1,59 @@
+LIBRARY ieee;                                               
+USE ieee.std_logic_1164.all;                                
+
+ENTITY marc_antoine_nadeau_jatin_patel_comparator_vhd_tst IS
+END marc_antoine_nadeau_jatin_patel_comparator_vhd_tst;
+ARCHITECTURE marc_antoine_nadeau_jatin_patel_comparator_arch OF marc_antoine_nadeau_jatin_patel_comparator_vhd_tst IS
+-- constants                                                 
+-- signals                                                   
+SIGNAL A : STD_LOGIC_VECTOR(3 DOWNTO 0);
+SIGNAL AeqBplusOne : STD_LOGIC;
+SIGNAL AgtBplusOne : STD_LOGIC;
+SIGNAL AgteBplusOne : STD_LOGIC;
+SIGNAL AltBplusOne : STD_LOGIC;
+SIGNAL AlteBplusOne : STD_LOGIC;
+SIGNAL B : STD_LOGIC_VECTOR(3 DOWNTO 0);
+SIGNAL overflow : STD_LOGIC;
+COMPONENT marc_antoine_nadeau_jatin_patel_comparator
+	PORT (
+	A : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+	AeqBplusOne : BUFFER STD_LOGIC;
+	AgtBplusOne : BUFFER STD_LOGIC;
+	AgteBplusOne : BUFFER STD_LOGIC;
+	AltBplusOne : BUFFER STD_LOGIC;
+	AlteBplusOne : BUFFER STD_LOGIC;
+	B : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+	overflow : BUFFER STD_LOGIC
+	);
+END COMPONENT;
+BEGIN
+	i1 : marc_antoine_nadeau_jatin_patel_comparator
+	PORT MAP (
+-- list connections between master ports and signals
+	A => A,
+	AeqBplusOne => AeqBplusOne,
+	AgtBplusOne => AgtBplusOne,
+	AgteBplusOne => AgteBplusOne,
+	AltBplusOne => AltBplusOne,
+	AlteBplusOne => AlteBplusOne,
+	B => B,
+	overflow => overflow
+	);                                   
+
+	always: PROCESS
+	BEGIN
+	A <= "0101";
+	B <= "1111";
+	WAIT for 10 ns;
+	
+	B <= "0101";
+	WAIT for 10 NS;
+	
+	B <= "0001";
+	WAIT for 10 NS;
+	
+	B <= "0110";
+	WAIT for 10 NS;
+WAIT;                                                        
+END PROCESS always;                                          
+END marc_antoine_nadeau_jatin_patel_comparator_arch;

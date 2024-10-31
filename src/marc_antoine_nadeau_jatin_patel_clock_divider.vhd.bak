@@ -1,0 +1,35 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity marc_antoine_nadeau_jatin_patel_clock_divider is
+	Port (enable, reset, clk : in std_logic;
+			en_out : out std_logic);
+end marc_antoine_nadeau_jatin_patel_clock_divider;
+
+architecture behavioral of marc_antoine_nadeau_jatin_patel_clock_divider is 
+	constant frequency : integer := 50000000;
+	signal clk_counter : integer;
+begin 
+	process(clk, enable, reset)
+	
+	begin 
+	if reset = '0' then
+		en_out <= '0';
+		clk_counter <= frequency;
+		
+	elseif (enable = '1' and rising_edge(clk)) then
+	
+		if count = 1 then
+			en_out <= '1';
+			clk_counter <= frequency;
+			
+	
+		else 
+			en_out <= '0';
+			clk_counter <= clk_counter - 1;
+			
+			end if;
+		end if;
+	end process;
+end architecture behavioral;
