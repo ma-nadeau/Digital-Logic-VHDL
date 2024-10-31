@@ -1,42 +1,42 @@
-P:/vhdl4/marc_antoine_nadeau_jatin_patel_FSM.vhd {1 {vcom -work work -2002 -explicit -stats=none P:/vhdl4/marc_antoine_nadeau_jatin_patel_FSM.vhd
+P:/vhdl4/FSM.vhd {1 {vcom -work work -2002 -explicit -stats=none P:/vhdl4/FSM.vhd
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity marc_antoine_nadeau_jatin_patel_FSM
--- Compiling architecture behavioral of marc_antoine_nadeau_jatin_patel_FSM
+-- Compiling entity FSM
+-- Compiling architecture behavioral of FSM
 
-} {} {}} P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht {2 {vcom -work work -2002 -explicit -stats=none P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht
+} {} {}} P:/vhdl4/simulation/modelsim/FSM.vht {2 {vcom -work work -2002 -explicit -stats=none P:/vhdl4/simulation/modelsim/FSM.vht
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity marc_antoine_nadeau_jatin_patel_FSM_vhd_tst
--- Compiling architecture marc_antoine_nadeau_jatin_patel_FSM_arch of marc_antoine_nadeau_jatin_patel_FSM_vhd_tst
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(77): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(110): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(116): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(119): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(128): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(131): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(134): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(137): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(140): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-** Warning: P:/vhdl4/simulation/modelsim/marc_antoine_nadeau_jatin_patel_FSM.vht(143): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+-- Compiling entity FSM_vhd_tst
+-- Compiling architecture FSM_arch of FSM_vhd_tst
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(77): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(110): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(116): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(119): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(128): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(131): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(134): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(137): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(140): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: P:/vhdl4/simulation/modelsim/FSM.vht(143): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 
 } {} {}}

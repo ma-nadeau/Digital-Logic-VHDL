@@ -1,0 +1,31 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity jkff is
+	Port (clk : in std_logic;
+			J : in std_logic;
+			K : in std_logic;
+			Q : out std_logic);
+end jkff;
+
+
+Architecture behavioral of jkff is
+begin 
+	PROCESS(clk)
+	variable temporary : std_logic := '1';
+	begin
+	if clk = '1' and clk'EVENT THEN
+		if J = '0' and K = '0' THEN
+			temporary := '1';
+		elsif J = '1' and K = '1' THEN
+			temporary := not temporary;
+		elsif J = '0' AND K = '1' THEN
+			temporary := '1';
+		end if;
+	end if;
+	
+	end PROCESS;
+	Q <= temporary;
+end behavioral;
+		
